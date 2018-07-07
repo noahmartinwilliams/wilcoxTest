@@ -1,0 +1,4 @@
+* File test1 was made with random numbers that are all greater than zero (because the wilcox test gave weird errors about zero values).
+* File test2 is file test1 but with 100 added to each number so that the average is guaranteed to be greater.
+* To test it run: ./wilcoxTest.R test1 test2
+* The script should give a return value based on whether or not test1 has an average less than test2.
